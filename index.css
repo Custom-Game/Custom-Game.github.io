@@ -1,0 +1,62 @@
+body {
+    padding     : 2%;
+    font-family : sans-serif;
+}
+
+p {
+    padding    : 2%;
+    margin     : 2%;
+    border     : thin solid black;
+}
+
+h1, h2, h3 {
+    color           : #10A090;
+    text-decoration : underline overline;
+    text-align : center;
+}
+
+h1 {
+    font-size : 3em;
+}
+ul {
+    padding     : 10% 10% 10% 25%;
+    font-family : serif;
+}
+
+blockquote {
+    color      : #F08020;
+    font-style : italic;
+    text-align : center;
+}
+
+#logo {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.botintro {
+    font-family         : serif;
+    line-height         : 2em;
+    
+    border              : 1px white dashed;
+    border-radius       : 15px;
+    
+    padding             : 25px;
+    padding-left        : 250px;
+    
+    margin              : 30px;
+    margin-right        : 60px;
+    
+    background-image    : url(images/bot.png);
+    background-repeat   : no-repeat;
+    background-position : top left;
+    background-color    : #F0B000;
+}
+
+#gui {
+    background-image : none;
+    padding-left: 25px;
+}
