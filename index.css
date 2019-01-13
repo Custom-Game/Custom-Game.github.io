@@ -12,7 +12,7 @@ p {
 h1, h2, h3 {
     color           : #10A090;
     text-decoration : underline overline;
-    text-align : center;
+    text-align      : center;
 }
 
 h1 {
@@ -59,4 +59,8 @@ a {
 #gui {
     background-image : none;
     padding-left: 25px;
+}
+
+#invite {
+    text-align : center;
 }
