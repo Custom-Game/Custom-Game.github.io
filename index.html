@@ -6,19 +6,19 @@
         <link href="index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="logo">
-        <img src="images/logo.png" alt="our logo">
-        </div>
-        <h1>
-            Custom Games Bot
-        </h1>
-        <p class="botintro">
+        <header id="main-header">
+            <img class="logo" src="images/logo.png" alt="our logo">
+            <h1>
+                Custom Games Bot
+            </h1>
+        </header>
+        <p class="botintro" id="intro">
             <a href="about/index.html">Custom Games Bot</a> was specifically designed in order to make things beautiful for your servers! 
         </p>
         <h2>
             Features
         </h2>
-        <ul>
+        <ul class="features">
             <li>Fabulous and community tailored <strong>GUI</strong></li>
             <li>Fully descriptive help and other utility commands</li>
             <li>Fast send command</li>
@@ -36,7 +36,23 @@
                 <q>Nobody wants to wait, right?</q>
             </blockquote>
         <div id="invite">
-            <a href="https://discordapp.com/oauth2/authorize?client_id=529634185262923796&scope=bot&permissions=511041"><img src="images/invite-me.jpeg" width="400px" height="100px"></a>
+            <a href="https://discordapp.com/oauth2/authorize?client_id=529634185262923796&scope=bot&permissions=511041 "><img src="images/invite-me.jpeg" width="400px" height="100px"></a>
+        <h1>
+            Commands
+        </h1>
+        <h3>
+            Bot Prefix= cg!
+        </h3>
+        
+        
+        
+        <p class="commands">
+            <ul>
+                <li><code class="command">cg!customgame</code> - The main command for creating customgames messages! Requires a channel named <span class="channel">#custom-rooms</span> or set through <code>cg!set channel</code></li>
+                <li><code class="command">cg!set channel [channel]</code> - The command used to set where the customgames notifications will be sent by mods or users! Defaults to a channel named <span class="channel">#custom-rooms</span></li>
+                <li><code class="command">cg!set modonly</code> - A toggle for making custom-room creation limited to mods only!</li>
+            </ul>
+        </p>
         </div>
     </body>
 </html>

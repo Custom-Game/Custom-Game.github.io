@@ -1,66 +1,87 @@
 body {
-    padding     : 2%;
-    font-family : sans-serif;
+    padding: 2%;
+    font-family: sans-serif;
+    margin: 0px;
+    background: #303838;
+    color: #B8B8B8;
 }
 
-p {
-    padding    : 2%;
-    margin     : 2%;
-    border     : thin solid black;
-}
 
-h1, h2, h3 {
-    color           : #10A090;
-    text-decoration : underline overline;
-    text-align      : center;
+h1, h2 {
+    color: #10A090;
+    text-decoration: underline overline;
+    text-align: center;
 }
 
 h1 {
-    font-size : 3em;
+    font-size: 150%;
 }
-ul {
-    padding     : 10% 10% 10% 25%;
-    font-family : serif;
+
+h2 {
+    font-size: 120%;
+}
+
+#main-header h1{
+    text-align: center;
+    height: 150px;
+    font-size: 4rem;
+}
+
+.logo {
+    float: right;
+}
+
+ul.features {
+    padding: 10% 10% 10% 25%;
+    font-family: serif;
 }
 
 blockquote {
-    color      : #F08020;
-    font-style : italic;
-    text-align : center;
-}
-
-#logo {
+    color: #F08020;
+    font-style: italic;
     text-align: center;
 }
 
 a {
-    color: black;
+    color: #B8B8B8;
 }
 
 .botintro {
-    font-family         : serif;
-    line-height         : 2em;
-    
-    border              : 1px white dashed;
-    border-radius       : 15px;
-    
-    padding             : 25px;
-    padding-left        : 250px;
-    
-    margin              : 30px;
-    margin-right        : 60px;
-    
-    background-image    : url(images/bot.png);
-    background-repeat   : no-repeat;
-    background-position : top left;
-    background-color    : #F0B000;
+    line-height: 2em;
+    border: 3px #303838 dashed;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px;
+    margin-right: 60px;
+    background: #F0B000;
+    color: #ffffff;
 }
 
 #gui {
-    background-image : none;
-    padding-left: 25px;
+    padding-left : 25px   ;
+}
+
+#intro {
+    background   : url(images/bot.png) no-repeat top left #F0B000;
+    padding-left : 250px  ;
 }
 
 #invite {
-    text-align : center;
+    text-align   : center ;
+}
+
+.commands {
+    text-align: none;
+}
+
+
+.channel {
+    color: #0086FF;
+    background: #98D1FF;
+    border-radius: 2px;
+    font-size: 75%;
+}
+
+code.command {
+    
 }
