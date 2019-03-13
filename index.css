@@ -23,7 +23,7 @@ h2 {
 
 #main-header h1{
     text-align: center;
-    height: 150px;
+    height: 125px;
     font-size: 4rem;
 }
 
@@ -48,7 +48,7 @@ a {
 
 .botintro {
     line-height: 2em;
-    border: 3px #303838 dashed;
+    border: 5px #303838 dashed;
     border-radius: 15px;
     padding: 25px;
     margin: 30px;
